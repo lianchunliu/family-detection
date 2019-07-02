@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rm -rf family-detection
+#rm -rf family-detection
 
 git clone https://github.com/lianchunliu/family-detection.git family-detection
 
