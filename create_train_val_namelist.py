@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 import tensorflow as tf
 
 flags = tf.app.flags
-flags.DEFINE_string("image_dir", '/floyd/input/family', 'image directory')
+flags.DEFINE_string("image_dir", '/floyd/input/family/annotations', 'image directory')
 flags.DEFINE_string("output_dir", '/floyd/input/family_data', 'image directory')
 flags.DEFINE_integer("val_count", 10, 'image directory')
 

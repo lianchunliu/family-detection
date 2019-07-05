@@ -42,7 +42,7 @@ flags = tf.app.flags
 flags.DEFINE_string('data_dir', '/floyd/input/family_data', 'data home ')
 flags.DEFINE_string('set', 'train', 'Convert training set, validation set or '
                     'merged set.')
-flags.DEFINE_string('annotations_dir', '/floyd/input/family',
+flags.DEFINE_string('annotations_dir', '/floyd/input/family/annotations',
                     '(Relative) path to annotations directory.')
 flags.DEFINE_string('output_path', '/floyd/input/family_data', 'Path to output TFRecord')
 flags.DEFINE_string('label_map_path', '/floyd/home/family-detection/family_label_map.pbtxt',
